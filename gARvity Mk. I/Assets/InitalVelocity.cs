@@ -12,7 +12,7 @@ public class InitalVelocity : MonoBehaviour {
         Rigidbody rb = GetComponent<Rigidbody>();
 
         transform.LookAt(trAttractor);
-        Vector3 forceTangent = new Vector3(Random.value, Random.value, 0);
+        Vector3 forceTangent = new Vector3(Random.Range(-1.0f, 1.0f), Random.Range(-1.0f, 1.0f), 0);
         Debug.Log(forceTangent);
 
         rb.AddRelativeForce(forceTangent * forceIntensity, ForceMode.VelocityChange);
