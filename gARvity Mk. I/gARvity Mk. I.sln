@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio for Mac
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gARvity Mk. I", "gARvity Mk. I.csproj", "{56F2B65E-ECDA-AB02-14DF-E0BAB4A47771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gARvity Mk. I.Editor", "gARvity Mk. I.Editor.csproj", "{17BFF2B5-1F3B-F28A-CE6D-1AAAD8A1DD7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{56F2B65E-ECDA-AB02-14DF-E0BAB4A47771}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56F2B65E-ECDA-AB02-14DF-E0BAB4A47771}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56F2B65E-ECDA-AB02-14DF-E0BAB4A47771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17BFF2B5-1F3B-F28A-CE6D-1AAAD8A1DD7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17BFF2B5-1F3B-F28A-CE6D-1AAAD8A1DD7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17BFF2B5-1F3B-F28A-CE6D-1AAAD8A1DD7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17BFF2B5-1F3B-F28A-CE6D-1AAAD8A1DD7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
