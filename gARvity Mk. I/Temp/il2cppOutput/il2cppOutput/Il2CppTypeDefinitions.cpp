@@ -13550,11 +13550,14 @@ extern const RuntimeType Rigidbody_t3916780224_0_0_3 = { (void*)1610, 3, IL2CPP_
 extern const RuntimeType Rigidbody_t3916780224_0_0_6 = { (void*)1610, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType Rigidbody_t3916780224_0_0_1 = { (void*)1610, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType Gravity_t379910146_0_0_0 = { (void*)2155, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Gravity_t379910146_1_0_0 = { (void*)2155, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Gravity_t379910146_0_0_0 = { (void*)2154, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Gravity_t379910146_1_0_0 = { (void*)2154, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType TrailRenderer_t1820797054_0_0_0 = { (void*)1269, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType TrailRenderer_t1820797054_1_0_0 = { (void*)1269, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+extern const RuntimeType InitalVelocity_t4206306390_0_0_0 = { (void*)2155, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType InitalVelocity_t4206306390_1_0_0 = { (void*)2155, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType GenericComparer_1_t3581574675_0_0_0 = { (void*)158, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType GenericComparer_1_t3581574675_1_0_0 = { (void*)158, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
@@ -18995,6 +18998,7 @@ extern const RuntimeType TouchType_t2034578258_0_0_1 = { (void*)1280, 1, IL2CPP_
 extern const RuntimeType Touch_t1921856868_0_0_0 = { (void*)1281, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 extern const RuntimeType Touch_t1921856868_1_0_0 = { (void*)1281, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 extern const RuntimeType Touch_t1921856868_1_0_2 = { (void*)1281, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Touch_t1921856868_0_0_1 = { (void*)1281, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 extern const RuntimeType Gyroscope_t3288342876_0_0_0 = { (void*)1282, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType Gyroscope_t3288342876_1_0_0 = { (void*)1282, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
@@ -21499,17 +21503,17 @@ extern const RuntimeType U3CModuleU3E_t692745546_1_0_0 = { (void*)2152, 0, IL2CP
 extern const RuntimeType BurnUp_t3435478401_0_0_0 = { (void*)2153, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType BurnUp_t3435478401_1_0_0 = { (void*)2153, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType InitalVelocity_t4206306390_0_0_0 = { (void*)2154, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType InitalVelocity_t4206306390_1_0_0 = { (void*)2154, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PlanetSpawnerOnCamera_t184397760_0_0_0 = { (void*)2156, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PlanetSpawnerOnCamera_t184397760_1_0_0 = { (void*)2156, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SpawnPlanet_t1082554547_0_0_0 = { (void*)2156, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SpawnPlanet_t1082554547_1_0_0 = { (void*)2156, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SpawnPlanet_t1082554547_0_0_0 = { (void*)2157, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SpawnPlanet_t1082554547_1_0_0 = { (void*)2157, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType DefaultInitializationErrorHandler_t3109936861_0_0_0 = { (void*)2157, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType DefaultInitializationErrorHandler_t3109936861_1_0_0 = { (void*)2157, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType DefaultInitializationErrorHandler_t3109936861_0_0_0 = { (void*)2158, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType DefaultInitializationErrorHandler_t3109936861_1_0_0 = { (void*)2158, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType DefaultTrackableEventHandler_t1588957063_0_0_0 = { (void*)2158, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType DefaultTrackableEventHandler_t1588957063_1_0_0 = { (void*)2158, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType DefaultTrackableEventHandler_t1588957063_0_0_0 = { (void*)2159, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType DefaultTrackableEventHandler_t1588957063_1_0_0 = { (void*)2159, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IComparer_1_t884274696_GenericClass = { 171, { &GenInst_DefaultComparer_t3277344064_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType IComparer_1_t884274696_0_0_0 = { &IComparer_1_t884274696_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -21554,7 +21558,7 @@ extern const RuntimeType ITrackingHandlerU5BU5D_t3758023570_0_0_0 = { (void*)&IT
 extern const RuntimeType TrackableBehaviourU5BU5D_t1497733925_0_0_0 = { (void*)&TrackableBehaviour_t1113559212_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
 extern const RuntimeType WordBehaviourU5BU5D_t3948822938_0_0_0 = { (void*)&WordBehaviour_t209462683_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
-extern const RuntimeType* const  g_Il2CppTypeTable[10535] = 
+extern const RuntimeType* const  g_Il2CppTypeTable[10538] = 
 {
 	&IEnumerator_1_t3512676632_0_0_0,
 	&RuntimeObject_0_0_0,
@@ -25456,6 +25460,7 @@ extern const RuntimeType* const  g_Il2CppTypeTable[10535] =
 	&Rigidbody_t3916780224_0_0_0,
 	&Gravity_t379910146_0_0_0,
 	&TrailRenderer_t1820797054_0_0_0,
+	&InitalVelocity_t4206306390_0_0_0,
 	&GenericComparer_1_t3581574675_0_0_0,
 	&GenericEqualityComparer_1_t2270490560_0_0_0,
 	&U3CModuleU3E_t692745525_0_0_0,
@@ -32007,11 +32012,13 @@ extern const RuntimeType* const  g_Il2CppTypeTable[10535] =
 	&U3CModuleU3E_t692745546_1_0_0,
 	&BurnUp_t3435478401_0_0_0,
 	&BurnUp_t3435478401_1_0_0,
-	&InitalVelocity_t4206306390_0_0_0,
-	&InitalVelocity_t4206306390_1_0_0,
 	&Gravity_t379910146_1_0_0,
 	&Rigidbody_t3916780224_0_0_6,
 	&Rigidbody_t3916780224_0_0_1,
+	&InitalVelocity_t4206306390_1_0_0,
+	&PlanetSpawnerOnCamera_t184397760_0_0_0,
+	&PlanetSpawnerOnCamera_t184397760_1_0_0,
+	&Touch_t1921856868_0_0_1,
 	&SpawnPlanet_t1082554547_0_0_0,
 	&SpawnPlanet_t1082554547_1_0_0,
 	&DefaultInitializationErrorHandler_t3109936861_0_0_0,

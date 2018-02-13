@@ -8409,10 +8409,6 @@ extern "C" void Transform_get_worldToLocalMatrix_m399704877 ();
 extern "C" void Transform_INTERNAL_get_worldToLocalMatrix_m2730237241 ();
 extern "C" void Transform_get_localToWorldMatrix_m4155710351 ();
 extern "C" void Transform_INTERNAL_get_localToWorldMatrix_m1917635696 ();
-extern "C" void Transform_LookAt_m3968184312 ();
-extern "C" void Transform_LookAt_m2637417695 ();
-extern "C" void Transform_LookAt_m3639503211 ();
-extern "C" void Transform_INTERNAL_CALL_LookAt_m2070996757 ();
 extern "C" void Transform_TransformPoint_m226827784 ();
 extern "C" void Transform_INTERNAL_CALL_TransformPoint_m4261269221 ();
 extern "C" void Transform_InverseTransformPoint_m1343916000 ();
@@ -13302,11 +13298,13 @@ extern "C" void Gravity_Start_m291897500 ();
 extern "C" void Gravity_FixedUpdate_m2462206454 ();
 extern "C" void InitalVelocity__ctor_m3158829163 ();
 extern "C" void InitalVelocity_Start_m1749693319 ();
-extern "C" void InitalVelocity_Update_m908390509 ();
+extern "C" void PlanetSpawnerOnCamera__ctor_m2335751268 ();
+extern "C" void PlanetSpawnerOnCamera_Update_m1218872470 ();
+extern "C" void PlanetSpawnerOnCamera_SpawnPlanetoid_m308606671 ();
 extern "C" void SpawnPlanet__ctor_m3909212381 ();
 extern "C" void SpawnPlanet_Start_m3912055243 ();
 extern "C" void SpawnPlanet_Update_m806466732 ();
-extern const Il2CppMethodPointer g_MethodPointers[13288] = 
+extern const Il2CppMethodPointer g_MethodPointers[13286] = 
 {
 	Locale_GetText_m3374010885,
 	Locale_GetText_m1601577974,
@@ -21699,10 +21697,6 @@ extern const Il2CppMethodPointer g_MethodPointers[13288] =
 	Transform_INTERNAL_get_worldToLocalMatrix_m2730237241,
 	Transform_get_localToWorldMatrix_m4155710351,
 	Transform_INTERNAL_get_localToWorldMatrix_m1917635696,
-	Transform_LookAt_m3968184312,
-	Transform_LookAt_m2637417695,
-	Transform_LookAt_m3639503211,
-	Transform_INTERNAL_CALL_LookAt_m2070996757,
 	Transform_TransformPoint_m226827784,
 	Transform_INTERNAL_CALL_TransformPoint_m4261269221,
 	Transform_InverseTransformPoint_m1343916000,
@@ -26592,7 +26586,9 @@ extern const Il2CppMethodPointer g_MethodPointers[13288] =
 	Gravity_FixedUpdate_m2462206454,
 	InitalVelocity__ctor_m3158829163,
 	InitalVelocity_Start_m1749693319,
-	InitalVelocity_Update_m908390509,
+	PlanetSpawnerOnCamera__ctor_m2335751268,
+	PlanetSpawnerOnCamera_Update_m1218872470,
+	PlanetSpawnerOnCamera_SpawnPlanetoid_m308606671,
 	SpawnPlanet__ctor_m3909212381,
 	SpawnPlanet_Start_m3912055243,
 	SpawnPlanet_Update_m806466732,

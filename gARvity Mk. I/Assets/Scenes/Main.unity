@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 101282788}
   - component: {fileID: 101282787}
   - component: {fileID: 101282786}
+  - component: {fileID: 101282791}
   m_Layer: 0
   m_Name: ARCamera
   m_TagString: Untagged
@@ -212,6 +213,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &101282791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 101282785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d13bb3a25639f48c09cba69e5036f3b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetoidPrefab: {fileID: 1917765841508318, guid: dc7494daa0c7ae846b71f78138e97685,
+    type: 2}
+  rbAttractor: {fileID: 1348193850}
+  ImageTarget: {fileID: 1729823145}
+  offset: 10
+  debugVel: 10
 --- !u!43 &406200111
 Mesh:
   m_ObjectHideFlags: 0
@@ -377,7 +395,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 431051696}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85fd341865ad74a86bf8d0a190ab2dc5, type: 3}
   m_Name: 

@@ -473,6 +473,7 @@ extern const Il2CppType VuforiaDeinitBehaviour_t1700985552_0_0_0;
 extern const Il2CppType Rigidbody_t3916780224_0_0_0;
 extern const Il2CppType Gravity_t379910146_0_0_0;
 extern const Il2CppType TrailRenderer_t1820797054_0_0_0;
+extern const Il2CppType InitalVelocity_t4206306390_0_0_0;
 extern const Il2CppType IEnumerable_1_t1615002100_gp_0_0_0_0;
 extern const Il2CppType Array_InternalArray__IEnumerable_GetEnumerator_m370636962_gp_0_0_0_0;
 extern const Il2CppType Array_Sort_m673391272_gp_0_0_0_0;
@@ -2043,6 +2044,8 @@ static const RuntimeType* GenInst_Gravity_t379910146_0_0_0_Types[] = { (&Gravity
 extern const Il2CppGenericInst GenInst_Gravity_t379910146_0_0_0 = { 1, GenInst_Gravity_t379910146_0_0_0_Types };
 static const RuntimeType* GenInst_TrailRenderer_t1820797054_0_0_0_Types[] = { (&TrailRenderer_t1820797054_0_0_0) };
 extern const Il2CppGenericInst GenInst_TrailRenderer_t1820797054_0_0_0 = { 1, GenInst_TrailRenderer_t1820797054_0_0_0_Types };
+static const RuntimeType* GenInst_InitalVelocity_t4206306390_0_0_0_Types[] = { (&InitalVelocity_t4206306390_0_0_0) };
+extern const Il2CppGenericInst GenInst_InitalVelocity_t4206306390_0_0_0 = { 1, GenInst_InitalVelocity_t4206306390_0_0_0_Types };
 static const RuntimeType* GenInst_Int32_t2950945753_0_0_0_Int32_t2950945753_0_0_0_Types[] = { (&Int32_t2950945753_0_0_0), (&Int32_t2950945753_0_0_0) };
 extern const Il2CppGenericInst GenInst_Int32_t2950945753_0_0_0_Int32_t2950945753_0_0_0 = { 2, GenInst_Int32_t2950945753_0_0_0_Int32_t2950945753_0_0_0_Types };
 static const RuntimeType* GenInst_CustomAttributeNamedArgument_t287865710_0_0_0_CustomAttributeNamedArgument_t287865710_0_0_0_Types[] = { (&CustomAttributeNamedArgument_t287865710_0_0_0), (&CustomAttributeNamedArgument_t287865710_0_0_0) };
@@ -2565,7 +2568,7 @@ static const RuntimeType* GenInst_TrackerManager_InitTracker_m2475625745_gp_0_0_
 extern const Il2CppGenericInst GenInst_TrackerManager_InitTracker_m2475625745_gp_0_0_0_0 = { 1, GenInst_TrackerManager_InitTracker_m2475625745_gp_0_0_0_0_Types };
 static const RuntimeType* GenInst_TrackerManager_DeinitTracker_m2259286816_gp_0_0_0_0_Types[] = { (&TrackerManager_DeinitTracker_m2259286816_gp_0_0_0_0) };
 extern const Il2CppGenericInst GenInst_TrackerManager_DeinitTracker_m2259286816_gp_0_0_0_0 = { 1, GenInst_TrackerManager_DeinitTracker_m2259286816_gp_0_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[953] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[954] = 
 {
 	&GenInst_RuntimeObject_0_0_0,
 	&GenInst_Int32_t2950945753_0_0_0,
@@ -3259,6 +3262,7 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[953] =
 	&GenInst_Rigidbody_t3916780224_0_0_0,
 	&GenInst_Gravity_t379910146_0_0_0,
 	&GenInst_TrailRenderer_t1820797054_0_0_0,
+	&GenInst_InitalVelocity_t4206306390_0_0_0,
 	&GenInst_Int32_t2950945753_0_0_0_Int32_t2950945753_0_0_0,
 	&GenInst_CustomAttributeNamedArgument_t287865710_0_0_0_CustomAttributeNamedArgument_t287865710_0_0_0,
 	&GenInst_CustomAttributeTypedArgument_t2723150157_0_0_0_CustomAttributeTypedArgument_t2723150157_0_0_0,

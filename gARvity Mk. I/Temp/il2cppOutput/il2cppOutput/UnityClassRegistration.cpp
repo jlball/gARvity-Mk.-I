@@ -273,52 +273,52 @@ void RegisterAllClasses()
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
 	//Total: 70 non stripped classes
-	//0. Behaviour
-	RegisterClass<Behaviour>();
+	//0. Rigidbody
+	RegisterClass<Rigidbody>();
 	//1. Unity::Component
 	RegisterClass<Unity::Component>();
 	//2. EditorExtension
 	RegisterClass<EditorExtension>();
-	//3. Camera
-	RegisterClass<Camera>();
-	//4. GameObject
-	RegisterClass<GameObject>();
-	//5. Renderer
-	RegisterClass<Renderer>();
-	//6. GUIElement
-	RegisterClass<GUIElement>();
-	//7. GUILayer
-	RegisterClass<GUILayer>();
-	//8. MonoBehaviour
-	RegisterClass<MonoBehaviour>();
-	//9. Shader
-	RegisterClass<Shader>();
-	//10. NamedObject
-	RegisterClass<NamedObject>();
-	//11. Material
-	RegisterClass<Material>();
-	//12. Sprite
-	RegisterClass<Sprite>();
-	//13. Texture
-	RegisterClass<Texture>();
-	//14. Texture2D
-	RegisterClass<Texture2D>();
-	//15. RenderTexture
-	RegisterClass<RenderTexture>();
-	//16. Transform
-	RegisterClass<Transform>();
-	//17. UI::RectTransform
-	RegisterClass<UI::RectTransform>();
-	//18. MeshFilter
-	RegisterClass<MeshFilter>();
-	//19. Mesh
-	RegisterClass<Mesh>();
-	//20. Rigidbody
-	RegisterClass<Rigidbody>();
-	//21. Collider
+	//3. Collider
 	RegisterClass<Collider>();
-	//22. BoxCollider
+	//4. BoxCollider
 	RegisterClass<BoxCollider>();
+	//5. Behaviour
+	RegisterClass<Behaviour>();
+	//6. Camera
+	RegisterClass<Camera>();
+	//7. GameObject
+	RegisterClass<GameObject>();
+	//8. Renderer
+	RegisterClass<Renderer>();
+	//9. GUIElement
+	RegisterClass<GUIElement>();
+	//10. GUILayer
+	RegisterClass<GUILayer>();
+	//11. MonoBehaviour
+	RegisterClass<MonoBehaviour>();
+	//12. Shader
+	RegisterClass<Shader>();
+	//13. NamedObject
+	RegisterClass<NamedObject>();
+	//14. Material
+	RegisterClass<Material>();
+	//15. Sprite
+	RegisterClass<Sprite>();
+	//16. Texture
+	RegisterClass<Texture>();
+	//17. Texture2D
+	RegisterClass<Texture2D>();
+	//18. RenderTexture
+	RegisterClass<RenderTexture>();
+	//19. Transform
+	RegisterClass<Transform>();
+	//20. UI::RectTransform
+	RegisterClass<UI::RectTransform>();
+	//21. MeshFilter
+	RegisterClass<MeshFilter>();
+	//22. Mesh
+	RegisterClass<Mesh>();
 	//23. TextRendering::Font
 	RegisterClass<TextRendering::Font>();
 	//24. Animator
